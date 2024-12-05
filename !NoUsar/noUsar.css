@@ -1,0 +1,23 @@
+/* Estilos básicos personalizados */
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+h2 {
+    font-size: 2em;
+}
+
+.card-title {
+    font-weight: bold;
+}
+
+/* Imagen de perfil redonda */
+#about img {
+    max-width: 150px;
+    border-radius: 50%;
+}
+
+/* Estilos del formulario */
+form .form-label {
+    font-weight: bold;
+}
