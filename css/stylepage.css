@@ -1,0 +1,19 @@
+.bg-color-squidblue{
+    background-color: #1414bf;
+}
+.bg-color-squidorange{
+    background-color: #ff590d;
+}
+
+body{
+    background-color: gray;
+}
+
+.Main-banner{
+    /* width: 100%; */
+    /* height: 100%; */
+}
+
+.mainNavBar{
+    color: white !important;
+}
