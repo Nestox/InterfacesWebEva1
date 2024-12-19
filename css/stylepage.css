@@ -15,11 +15,17 @@
 body{
     font-family: 'SplatoonFont';
     background-color: gray;
+    background-image: url('../assets/bgsplats.png') !important;
 }
 
 .Main-banner{
     /* width: 100%; */
     /* height: 100%; */
+}
+
+.text-shadow-blue
+{
+    text-shadow: 2px 2px blue;
 }
 
 .mainNavBar{
@@ -31,5 +37,5 @@ body{
     height: 100vh; 
     background-size: cover; 
     background-position: center; 
-    background-image: url('assets/S3_Mode_Tableturf_Battle_Image1_-_Logo.png');
+    background-image: url('../assets/S3_Mode_Tableturf_Battle_Image1_-_Logo.png');
 }
