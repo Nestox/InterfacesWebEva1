@@ -1,3 +1,8 @@
+@font-face {
+    font-family: SplatoonFont;
+    src: url(../assets/Splatoon1.otf);
+}
+
 .bg-color-squidblue{
     background-color: #1414bf;
     color: white;
@@ -8,6 +13,7 @@
 }
 
 body{
+    font-family: 'SplatoonFont';
     background-color: gray;
 }
 
@@ -18,4 +24,12 @@ body{
 
 .mainNavBar{
     color: white !important;
+}
+
+.card-bg
+{
+    height: 100vh; 
+    background-size: cover; 
+    background-position: center; 
+    background-image: url('assets/S3_Mode_Tableturf_Battle_Image1_-_Logo.png');
 }

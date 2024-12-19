@@ -24,8 +24,10 @@ El proceso de desarrollo se llevó a cabo en las siguientes fases:
    - **Git** fue utilizado para el control de versiones, y **GitHub** para la gestión del código fuente y el versionado del mismo
    
 2. **Diseño Visual**:
-   - Para la tipografía, se eligieron fuentes **sans-serif** por su legibilidad en pantallas de diferentes tamaños.
+   - Para la tipografía, se uso una fuente hecha por fans basada en la tipografia oficial del juego.
    - Para los colores se usaron referencias a las paletas ya generadas para el juego de origen
+     - Colores vivos variados, sin tonos muy oscuros
+     - 
 
 3. **Maquetación**:
    - La página fue diseñada usando **HTML5 semántico**, asegurando el uso adecuado de etiquetas como `<header>`, `<nav>`, `<article>`, `<footer>`, entre otras.
