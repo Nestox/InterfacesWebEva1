@@ -4,7 +4,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/bootstrap.css">
+    <!-- <link rel="stylesheet" href="css/bootstrap.css"> -->
+     <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
     <link rel="stylesheet" href="css/stylepage.css">
     <title>Estudios Esturion</title>
 </head>
@@ -28,6 +29,9 @@
                     </li>
                     <li class="nav-item">
                         <a class="nav-link text-white" href="#carterritorial">Batallas Carterritoriales</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="#ubicaciones">Ubicaciones</a>
                     </li>
                 </ul>
             </div>
@@ -145,6 +149,7 @@
                     </div>
                 </div>
             </div>
+            <!-- FIXME: revisar el row que falta -->
             <div class="col-12 ">
                 <div class="card mb-3 min-vw-75 mw-100 " >
                     <div class="row g-0">
@@ -252,7 +257,7 @@
                                     <div class="col-12 d-flex d-md-none">
                                         <img src="assets/card1.png" class="w-50" alt="...">
                                         
-                                        <img src="assets/card2.png" class="w-50 img-fluid" alt="...">
+                                        <img src="assets/card2.png" class="w-50" alt="...">
                                     </div>
                                     <div class="col-12 d-flex d-md-none ">
                                         <img src="assets/card3.png" class="w-50" alt="...">
@@ -334,6 +339,8 @@
         Esta pagina no esta afiliada con Nintendo o Splatoon de ninguna manera
     </p>
 </div>
-<script src="js/bootstrap.js"></script>
+<!-- TODO: switch js to bundle version -->
+<!-- <script src="js/bootstrap.js"></script> -->
+ <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
 
 </html>

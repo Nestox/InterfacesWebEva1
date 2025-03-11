@@ -1,0 +1,23 @@
+{
+  "name": "interfaceswebeva1",
+  "version": "1.0.0",
+  "description": "El proyecto tiene una finalidad de servir como ejemplo de las materias vistas durante el curso y está basado en un diseño responsive, que asegura una correcta visualización en dispositivos con diferentes tamaños de pantalla. Se ha trabajado en un entorno de desarrollo que incluye herramientas modernas como Visual Studio Code, GitHub y el uso de fuentes e iconografía específicas.",
+  "homepage": "https://github.com/Nestox/InterfacesWebEva1#readme",
+  "bugs": {
+    "url": "https://github.com/Nestox/InterfacesWebEva1/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Nestox/InterfacesWebEva1.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "bootstrap": "^5.3.3"
+  }
+}
