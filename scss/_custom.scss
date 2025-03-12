@@ -80,15 +80,15 @@ $colors: (
 // $color-contrast-light:     $white !default;
 
 // // fusv-disable
-// $blue-100: tint-color($blue, 80%) !default;
-// $blue-200: tint-color($blue, 60%) !default;
-// $blue-300: tint-color($blue, 40%) !default;
-// $blue-400: tint-color($blue, 20%) !default;
-// $blue-500: $blue !default;
-// $blue-600: shade-color($blue, 20%) !default;
-// $blue-700: shade-color($blue, 40%) !default;
-// $blue-800: shade-color($blue, 60%) !default;
-// $blue-900: shade-color($blue, 80%) !default;
+$squidblue-100: tint-color($squidblue, 80%) !default;
+$squidblue-200: tint-color($squidblue, 60%) !default;
+$squidblue-300: tint-color($squidblue, 40%) !default;
+$squidblue-400: tint-color($squidblue, 20%) !default;
+$squidblue-500: $squidblue !default;
+$squidblue-600: shade-color($squidblue, 20%) !default;
+$squidblue-700: shade-color($squidblue, 40%) !default;
+$squidblue-800: shade-color($squidblue, 60%) !default;
+$squidblue-900: shade-color($squidblue, 80%) !default;
 
 // $indigo-100: tint-color($indigo, 80%) !default;
 // $indigo-200: tint-color($indigo, 60%) !default;
@@ -130,15 +130,15 @@ $colors: (
 // $red-800: shade-color($red, 60%) !default;
 // $red-900: shade-color($red, 80%) !default;
 
-// $orange-100: tint-color($orange, 80%) !default;
-// $orange-200: tint-color($orange, 60%) !default;
-// $orange-300: tint-color($orange, 40%) !default;
-// $orange-400: tint-color($orange, 20%) !default;
-// $orange-500: $orange !default;
-// $orange-600: shade-color($orange, 20%) !default;
-// $orange-700: shade-color($orange, 40%) !default;
-// $orange-800: shade-color($orange, 60%) !default;
-// $orange-900: shade-color($orange, 80%) !default;
+$squidorange-100: tint-color($squidorange, 80%) !default;
+$squidorange-200: tint-color($squidorange, 60%) !default;
+$squidorange-300: tint-color($squidorange, 40%) !default;
+$squidorange-400: tint-color($squidorange, 20%) !default;
+$squidorange-500: $squidorange !default;
+$squidorange-600: shade-color($squidorange, 20%) !default;
+$squidorange-700: shade-color($squidorange, 40%) !default;
+$squidorange-800: shade-color($squidorange, 60%) !default;
+$squidorange-900: shade-color($squidorange, 80%) !default;
 
 // $yellow-100: tint-color($yellow, 80%) !default;
 // $yellow-200: tint-color($yellow, 60%) !default;
