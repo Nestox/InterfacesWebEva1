@@ -3,11 +3,19 @@
 
 
 $custom-colors: (
-    // "squidblue": #1414bf
-    "squidorange": #ff590d
+    "squidblue": #1414bf,
+    "squidorange": #ff590d,
+    "squidgreen": #55d228,
+    "squidpink": #ed4455
 );
 
-$theme-colors: map-merge($theme-colors, $custom-colors);
+$theme-colors: map-merge($custom-colors, $theme-colors);
+// $theme-colors: map-merge(
+//     (
+//         "squidorange": $squidorange
+//     ), 
+//     $theme-colors
+// );
 
 
 @import "custom-dark"; // TODO: can be removed safely in v6, only here to avoid breaking changes in v5.3

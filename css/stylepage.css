@@ -8,10 +8,30 @@
     color: white;
 }
 
-/* .bg-color-squidorange{
+.bg-color-squidorange{
     background-color: #ff590d;
     color: white;
-} */
+}
+
+.bg-color-squidgreen{
+    background-color: #55d228;
+    color: white;
+}
+
+.bg-color-squidpink{
+    background-color: #ed4455;
+    color: white;
+}
+
+.bg-color-squidpurple{
+    background-color: #3a0ccd;
+    color: white;
+}
+
+.bg-color-squidyellow{
+    background-color: #d0be08;
+    color: black;
+}
 
 body{
     font-family: 'SplatoonFont';

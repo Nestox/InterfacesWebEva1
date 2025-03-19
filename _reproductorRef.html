@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Radio con Bootstrap</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="scss/NX_boot.css">
+
+    <style>
+        /* Estilos personalizados */
+        .radio-container {
+            max-width: 400px;
+            margin: 50px auto;
+            text-align: center;
+        }
+        .btn-group {
+            margin-top: 20px;
+        }
+    </style>
+
+</head>
+<body>
+    <div class="radio-container">
+        <h1 class="mb-4">Radio Online</h1>
+        <audio id="radio-audio" controls>
+            <!-- Fuente de audio (puedes cambiar la URL por una emisora real) -->
+            <source src="assets/Although the sky.mp3" type="audio/mp3">
+            Tu navegador no soporta el elemento de audio.
+        </audio>
+        <div class="btn-group">
+            <button id="play-btn" class="btn btn-squidorange">Play</button>
+            <button id="skip-btn" class="btn btn-warning">Skip</button>
+            <button id="return-btn" class="btn btn-info">Return</button>
+        </div>
+    </div>
+
+    <!-- Bootstrap JS y dependencias -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+        // JavaScript para controlar la radio
+        const audio = document.getElementById('radio-audio');
+        const playBtn = document.getElementById('play-btn');
+        const skipBtn = document.getElementById('skip-btn');
+        const returnBtn = document.getElementById('return-btn');
+
+        // Lista de emisoras (puedes agregar más)
+        const stations = [
+            "./", // Ejemplo 1
+            "https://stream.zeno.fm/4y0h2a2h8kzuv", // Ejemplo 2
+            "https://stream.zeno.fm/5c4w3h0h8kzuv"  // Ejemplo 3
+        ];
+        let currentStationIndex = 0;
+
+        // Función para cambiar la emisora
+        function changeStation(index) {
+            audio.src = stations[index];
+            audio.play();
+        }
+
+        // Botón Play/Pause
+        playBtn.addEventListener('click', () => {
+            if (audio.paused) {
+                audio.play();
+                playBtn.textContent = 'Pause';
+            } else {
+                audio.pause();
+                playBtn.textContent = 'Play';
+            }
+        });
+
+        // Botón Skip (siguiente emisora)
+        skipBtn.addEventListener('click', () => {
+            currentStationIndex = (currentStationIndex + 1) % stations.length;
+            changeStation(currentStationIndex);
+        });
+
+        // Botón Return (emisora anterior)
+        returnBtn.addEventListener('click', () => {
+            currentStationIndex = (currentStationIndex - 1 + stations.length) % stations.length;
+            changeStation(currentStationIndex);
+        });
+
+        // Iniciar con la primera emisora
+        changeStation(currentStationIndex);
+    </script>
+</body>
+</html>
