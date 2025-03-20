@@ -1,0 +1,44 @@
+CRITERIOS DE EVALUACIÓN (MARZO 2025)
+
+No habrá examen. La evaluación consistirá en la presentación, exposición y defensa de un trabajo personal (no por equipos) en base a los siguientes
+
+REQUISITOS
+
+En marzo se presentará el proyecto.
+
+Este proyecto abarcará las materias vistas hasta el momento y lo que se entregará en esta evaluación constará de dos documentos:
+
+A) MEMORIA
+
+    Introducción
+    Metodología
+    Justificación de las soluciones adoptadas
+    Guía de estilos
+    Etc...
+
+B) PROYECTO (usando el framework Bootstrap si se desea)
+
+    Angular v19 - (OPCIONAL)
+    En html / css - Usará:
+    Etiquetas html semánticas
+    Posicionamiento con css
+    Flexbox
+    Responsive con css-grid
+    CSS empleando metodología BEM
+    Tema claro y oscuro
+    CSS generado con SCSS (se incluirían los archivos originales .scss)
+    Contará con un README.md en formato markdown
+
+
+
+FORMA DE PRESENTACIÓN:
+
+A) Se entregará subiendo a una tarea un archivo comprimido (.rar) con el siguiente nombre
+
+                                dawdiw_202503_apellido1_apellido2_nombre.rar
+
+B) Se defenderá este proyecto personalmente en clase el día de la evaluación (fecha a determinar)
+
+                   
+
+IMPORTANTE: Recordad que el entregable debe poder ejecutarse en otras máquinas (por ejemplo la del profesor)

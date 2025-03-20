@@ -1,5 +1,9 @@
 // $squidblue: #1414bf;
 // $squidorange: #ff590d;
+// $squidgreen: #55d228;
+// $squidpink: #ed4455;
+// $squidpurple: #3a0ccd;
+// $squidyellow: #d0be08;
 
 
 $custom-colors: (
@@ -7,6 +11,8 @@ $custom-colors: (
     "squidorange": #ff590d,
     "squidgreen": #55d228,
     "squidpink": #ed4455
+    "squidpurple": #3a0ccd,
+    "squidyellow": #d0be08
 );
 
 $theme-colors: map-merge($custom-colors, $theme-colors);

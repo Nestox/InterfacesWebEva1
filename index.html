@@ -41,9 +41,9 @@
                     Selector de Estilos
                 </button>
                 <ul class="dropdown-menu">
-                    <li><a class="dropdown-item" href="#">Splatoon 1</a></li>
-                    <li><a class="dropdown-item" href="#">Splatoon 2</a></li>
-                    <li><a class="dropdown-item" href="#">Splatoon 3</a></li>
+                    <li><a class="dropdown-item" id="splat1" onclick="changeSplatStyle('splat1')" href="#">Splatoon 1</a></li>
+                    <li><a class="dropdown-item" id="splat2" onclick="changeSplatStyle('splat2')" href="#">Splatoon 2</a></li>
+                    <li><a class="dropdown-item" id="splat3" onclick="changeSplatStyle('splat3')" href="#">Splatoon 3</a></li>
                 </ul>
             </div>
         </div>
@@ -350,11 +350,12 @@
 </body>
 <div class="footer text-center p-3 text-white mt-5 bg-dark border-top">
     <p>
-        Esta pagina no esta afiliada con Nintendo o Splatoon de ninguna manera
+        Esta pagina no esta afiliada con Nintendo de ninguna manera 
     </p>
 </div>
 <!-- TODO: switch js to bundle version -->
 <!-- <script src="js/bootstrap.js"></script> -->
  <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+ <script src="js/main.js"></script>
 
 </html>
