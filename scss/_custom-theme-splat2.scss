@@ -1,8 +1,8 @@
 [data-bs-theme="splat2"] {
     // Required
-    // @import "functions";
-    // @import "variables";
-    // @import "variables-dark";
+    @import "../node_modules/bootstrap/scss/functions";
+    @import "../node_modules/bootstrap/scss/variables";
+    @import "../node_modules/bootstrap/scss/variables-dark";
 
     // Add a custom color to $theme-colors
     $custom-colors: (

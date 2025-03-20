@@ -6,6 +6,16 @@
 // "squidpink": #ed4455
 // "squidpurple": #3a0ccd,
 // "squidyellow": #d0be08
+// import gsap from "gsap";
+document.addEventListener("DOMContentLoaded", () => {
+
+    gsap.to(".splatimg", { rotation: 12, scale:1.2, duration: 1 });
+    gsap.to(".splatimg2", { rotation: -12, scale:1.2, duration: 1 });
+    // gsap.fromTo(".splattest", {scale: 1.5, opacity: 0}, {scale: 1, opacity: 1, duration: 1, delay: 1});
+});
+//  import  //
+
+//  gsap  //
 
 
 const changeSplatStyle = (id) => {
@@ -98,3 +108,4 @@ const changeSplatStyle = (id) => {
     
     // console.log(blue)
 };
+

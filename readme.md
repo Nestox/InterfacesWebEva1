@@ -1,5 +1,7 @@
 # Memoria del Proyecto
 
+ ![foto](./assets/Ancho-V%20Logo.png)
+
 ## Introducción
 
 El proyecto tiene una finalidad de servir como ejemplo de las materias vistas durante el curso y está basado en un diseño responsive, que asegura una correcta visualización en dispositivos con diferentes tamaños de pantalla. Se ha trabajado en un entorno de desarrollo que incluye herramientas modernas como Visual Studio Code, GitHub y el uso de fuentes e iconografía específicas.
@@ -27,11 +29,13 @@ El proceso de desarrollo se llevó a cabo en las siguientes fases:
    - Para la tipografía, se uso una fuente hecha por fans basada en la tipografia oficial del juego.
    - Para los colores se usaron referencias a las paletas ya generadas para el juego de origen
      - Colores vivos variados, sin tonos muy oscuros
-     - 
+     - Multiples temas basados en las distintas entregas del juego
 
 3. **Maquetación**:
    - La página fue diseñada usando **HTML5 semántico**, asegurando el uso adecuado de etiquetas como `<header>`, `<nav>`, `<article>`, `<footer>`, entre otras.
    - **CSS Flexbox** y **CSS Grid** fueron utilizados para la maquetación responsive, adaptándose a diferentes tamaños de pantalla.
+   - Se ha usado [**GSAP**](https://gsap.com/) para animaciones y varias la composicion
+   - Se ha usado un compilado customizado de bootstrap.
 
 4. **Implementación con Bootstrap**:
    - Se implementó el **framework Bootstrap** para agilizar el desarrollo y asegurar la compatibilidad con diferentes dispositivos y tamaños de pantalla.
@@ -57,8 +61,8 @@ La adaptabilidad de la página se logró gracias al uso de **CSS Grid** y **Flex
 - **Fondo de la web**: El fondo de la web ha sido creado desde cero usando colores variados.
 - **Caratulas de juegos**: Las caratulas de cada juego fueron obtenidas de la wiki oficial del juego .
 
-<!--| ![Fondo de pantalla](assets/bgsplats.png) | Imagen de fondo |-->
-<!--| :----------------------------------------------: | :-------------------------------------------------------------------------------------------------------------------------------------------------: |-->
+| ![Fondo de pantalla](assets/bgsplats.png) | Imagen de fondo |
+| :----------------------------------------------: | :-------------------------------------------------------------------------------------------------------------------------------------------------: |
 
 ### Colores
 

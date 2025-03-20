@@ -1,7 +1,9 @@
 @font-face {
     font-family: SplatoonFont;
-    src: url(../assets/Splatoon1.otf);
+    src: url(../assets/font/Splatoon1.otf);
 }
+
+/* Splat 1 color scheme */
 
 .bg-color-squidblue{
     background-color: #1414bf;
@@ -13,6 +15,13 @@
     color: white;
 }
 
+.bg-color-squid1-special{
+    background: linear-gradient(to right, #1414bf 0%, #ff590d 100%);
+    color: white;
+}
+
+/* Splat 2 color scheme */
+
 .bg-color-squidgreen{
     background-color: #55d228;
     color: white;
@@ -23,6 +32,13 @@
     color: white;
 }
 
+.bg-color-squid2-special{
+    background: linear-gradient(to right, #55d228 0%, #ed4455 100%);
+    color: white;
+}
+
+/* Splat 3 color scheme */
+
 .bg-color-squidpurple{
     background-color: #3a0ccd;
     color: white;
@@ -31,6 +47,11 @@
 .bg-color-squidyellow{
     background-color: #d0be08;
     color: black;
+}
+
+.bg-color-squid3-special{
+    background: linear-gradient(to right, #3a0ccd 0%, #d0be08 100%);
+    color: white;
 }
 
 body{
@@ -59,4 +80,26 @@ body{
     background-size: cover; 
     background-position: center; 
     background-image: url('../assets/S3_Mode_Tableturf_Battle_Image1_-_Logo.png');
+}
+
+.card-music-bg
+{
+    height: auto; 
+    background-size: cover; 
+    background-position: center; 
+    background-image: url('../assets/S3_Band_Ancho-V_Games.jpg');
+}
+
+.splatimg{
+    z-index: -15;
+    box-shadow: black 0px 0px 10px;
+}
+.splatimg2{
+    z-index: -15;
+    box-shadow: black 0px 0px 10px;
+}
+
+.splattest{
+    background-color: #1414bf;
+    width: 120px;
 }

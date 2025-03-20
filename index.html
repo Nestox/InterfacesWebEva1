@@ -48,9 +48,7 @@
             </div>
         </div>
     </nav>
-    <div class="container">
-        
-    </div>
+    <div class="splattest"></div>
     <div class="container">
         <div class="row mb-2">
             <div class="col-12 text-center">
@@ -331,15 +329,93 @@
             </div>
         </div>
     </div>
-    <!-- referencia a los juegos-->
-    <div class="container">
+    <div class="container d-none d-lg-flex mb-3">
         <div class="row">
+            <div class="col-4">
+                <img src="assets/S3_Band_Ancho-V_Games.jpg" alt="" class="img-fluid">
+            </div>
+            <div class="col-8 align-content-center bg-color-squid3-special border border-dark">
+                <!-- First Song -->
+                <label for="">Map Select</label>
+                <audio src="assets/music/14TableturfLevelSelection.mp3" controls class="w-100 bg-black border border-warning"></audio>
+                
+                <!-- Second Song -->
+                <label for="">Elige tu baraja</label>
+                <audio src="assets/music/15_Tableturf_Deck_Selection.mp3" controls class="w-100 bg-black border border-warning"></audio>
+                
+                <!-- Third Song -->
+                <label for="">¡¡A Combatir!!</label>
+                <audio src="assets/music/16_Tableturf_Main_Theme.mp3" controls class="w-100 bg-black border border-warning"></audio>
+                
+                <!-- Forth Song -->
+                <label for="">¡¡Ganaste!!</label>
+                <audio src="assets/music/18_Tableturf_Win_Theme.mp3" controls class="w-100 bg-black border border-warning"></audio>
+            </div>
+        </div>
+    </div>
+    <div class="container d-flex d-lg-none mb-3 text-white card-music-bg">
+        <div class="row">
+            <!-- <div class="col-4">
+                <img src="assets/S3_Band_Ancho-V_Games.jpg" alt="" class="img-fluid">
+            </div> -->
+            <div class="col-12 align-content-center border border-dark">
+                <!-- First Song -->
+                <label for="">Map Select</label>
+                <audio src="assets/music/14_Tableturf_Level_Selection.mp3" controls class="w-100 bg-transparent border border-warning"></audio>
+                
+                <!-- Second Song -->
+                <label for="">Elige tu baraja</label>
+                <audio src="assets/music/15_Tableturf_Deck_Selection.mp3" controls class="w-100 bg-transparent border border-warning"></audio>
+                
+                <!-- Third Song -->
+                <label for="">¡¡A Combatir!!</label>
+                <audio src="assets/music/16_Tableturf_Main_Theme.mp3" controls class="w-100 bg-transparent border border-warning"></audio>
+                
+                <!-- Forth Song -->
+                <label for="">¡¡Ganaste!!</label>
+                <audio src="assets/music/18_Tableturf_Win_Theme.mp3" controls class="w-100 bg-transparent border border-warning"></audio>
+            </div>
+        </div>
+    </div>
+    <!-- referencia a los juegos-->
+     <!-- // Splat 1 -->
+    <div class="container mb-3">
+        <!-- <div class="row">
             <div class="col-12 px-2 bg-color-squidblue text-center fs-3 fw-bold mb-2 mx-1" id="visitanos">
                 En Construcción
             </div>
+        </div> -->
+        <div class="row">
+            <div class="col-9 bg-color-squid1-special fs-1">
+                    Si estas cerca de la plaza de crompolis puedes acercarte a visitarnos
+            </div>
+            <div class="col-3 ">
+                <img src="assets/Splat_plaza_1.jpg" alt="A photo of the inkopolis plaza" class="img-fluid splatimg">
+            </div>
         </div>
-        <div class="row col-12 bg-white m-2">
-                Si estas cerca de la plaza de crompolis puedes acercarte a visitarnos 
+    </div>
+    <!-- // Splat 2 -->
+    <div class="container mb-3">
+        <div class="row">
+            <div class="col-3 ">
+                <img src="assets/Splat_Square_2.jpg" alt="A photo of splatsvilles train headed to the inkopolis plaza" class="img-fluid splatimg2">
+            </div>
+            
+            <div class="col-9 bg-color-squid2-special fs-2">
+                    Si estas cerca de la calle mayor de crompolis puedes acercarte a visitarnos y decir hola, 
+            </div>
+        </div>
+    </div>
+
+    <!-- // Splat 3 -->
+    <div class="container mb-3">
+        <div class="row">
+            <div class="col-9 bg-color-squid3-special fs-3">
+                    No tenemos oficinas en tintelia pero puedes comprar un ticket del recientemente abierto tren para acercarte al centro y visitarnos!
+            </div>
+            <div class="col-3 ">
+                <img src="assets/S3_Splatsville_2022.jpg" alt="A photo of splatsville" class="img-fluid splatimg">
+            </div>
         </div>
     </div>
         <!-- TODO: Add this you lazy mf -->
@@ -353,9 +429,20 @@
         Esta pagina no esta afiliada con Nintendo de ninguna manera 
     </p>
 </div>
-<!-- TODO: switch js to bundle version -->
-<!-- <script src="js/bootstrap.js"></script> -->
- <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
- <script src="js/main.js"></script>
 
+    <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+    <script src="js/main.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.7/dist/gsap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.7/dist/Flip.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.7/dist/ScrollTrigger.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.7/dist/Observer.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.7/dist/ScrollToPlugin.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.7/dist/Draggable.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.7/dist/MotionPathPlugin.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.7/dist/EaselPlugin.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.7/dist/PixiPlugin.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.7/dist/TextPlugin.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.7/dist/EasePack.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.7/dist/CustomEase.min.js"></script>
 </html>

@@ -1,16 +1,19 @@
+@import "../node_modules/bootstrap/scss/functions";
+
 // $squidblue: #1414bf;
 // $squidorange: #ff590d;
 // $squidgreen: #55d228;
 // $squidpink: #ed4455;
 // $squidpurple: #3a0ccd;
 // $squidyellow: #d0be08;
-
+// @import "../node_modules/bootstrap/scss/functions";
+// @import "../node_modules/bootstrap/scss/variables";
 
 $custom-colors: (
     "squidblue": #1414bf,
     "squidorange": #ff590d,
     "squidgreen": #55d228,
-    "squidpink": #ed4455
+    "squidpink": #ed4455,
     "squidpurple": #3a0ccd,
     "squidyellow": #d0be08
 );
@@ -23,5 +26,9 @@ $theme-colors: map-merge($custom-colors, $theme-colors);
 //     $theme-colors
 // );
 
+
+.qaz{
+    background-color: red;
+}
 
 @import "custom-dark"; // TODO: can be removed safely in v6, only here to avoid breaking changes in v5.3
